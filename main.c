@@ -26,7 +26,7 @@ int busca(int vetor[],int ini,int fim,int pesq)
 int main (void)
 {
  int vetor[MAX]={1,4,5,10},fun,x;
- printf("Informe o valor a ser encontrado: ");
+ printf("Digite o valor a ser buscado:\n ");
  scanf("%d",&x);
  fun = busca(vetor,0,MAX-1,x);
  printf("%d",fun);
